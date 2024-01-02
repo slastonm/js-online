@@ -1,0 +1,3 @@
+Оголосіть дві змінні: userAgeValue з числовим значенням та userNameNickname з значенням текстовим.
+Змініть значення userAgeValue так задайте нове значення userNameNickname
+https://www.w3schools.com/js/js_reserved.asp

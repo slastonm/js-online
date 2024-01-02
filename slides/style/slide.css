@@ -1,0 +1,13 @@
+.d-flex{
+    display: flex!important;
+}
+.info-block{
+    margin-left: 30px;
+}
+.caption{
+    background-color: #222;
+    background-image: none;
+}
+.list-style-none li::before{
+    display: none;
+}

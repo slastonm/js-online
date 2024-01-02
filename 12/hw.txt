@@ -1,0 +1,21 @@
+Створіть HTML-сторінку з елементами header, section,  div, задайте елементам атрибути id, сlass.
+
+Виберіть ці елементи за допомогою 
+getElementById
+getElementsByClassName
+getElementsByTagName
+
+створіть список ul з 5 елементами li всередині.
+За допомогою querySelector виберіть:
+- перший елемент списку
+- останній елемент списку
+- 3 елемент списку
+За допомогою querySelectorAll
+- всі елементи li в списку
+- конвертуйте вибрані елменти в массив
+
+Створіть на сторінці елемент який вибирається ціми селекторами
+// let listItems = document.querySelectorAll('ul.nav > li');
+// let listItem = document.querySelectorAll('li:nth-child(2)');
+
+

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+    <style>
+        .menu-list{
+            display: none;
+        }
+        .menu-list.active{
+            display: block;
+        }
+        .menu-btn .close-info{
+            display: none;
+        }
+        .menu-btn .open-info{
+            display: block;
+        }
+        .menu-btn.active .open-info{
+            display: none;
+        }
+        .menu-btn.active .close-info{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        HW
+    </h1>
+    <button id="clickButton">Натисніть Мене</button>
+    <p>Лічильник кліків: <span id="counter">0</span></p>
+
+    <div class="blockContainer">
+        <button class="first">
+            First
+        </button>
+        <button class="second">
+            Second
+        </button><button class="third">
+            Third
+        </button>
+    </div>
+
+    <button class="menu-btn">
+        <span class="open-info">
+            Відкрити меню
+        </span>
+        <span class="close-info">
+            Закрити меню
+        </span>
+    </button>
+    <ul class="menu-list">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Sale</a></li>
+    </ul>
+</body>
+</html>
