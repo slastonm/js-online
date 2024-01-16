@@ -1,0 +1,10 @@
+1 Знаходження всіх великих літер в тексті і збереження їх в масив
+
+let textStr = "    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos itaque vero laborum fugit harum! Quia, cumque necessitatibus nemo veniam odit dolor impedit aspernatur, ipsa vitae minima quasi doloribus repellendus cupiditate!";
+
+2 Вибір числових значень з строки
+let operation = "5 плюс 7 = 3";
+
+3  Знаходження слів із певною кількістю символів:
+Напишіть регулярний вираз для знаходження слів у тексті, що складаються рівно з 5 букв, можна взяти текст з textStr з першого завдання
+
