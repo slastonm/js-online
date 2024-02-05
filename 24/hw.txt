@@ -1,3 +1,5 @@
+Приклади розглянуті на уроці
+https://github.com/slastonm/js-online/tree/main/24
 
 Домашня робота:
 Завдання 1: Отримання даних користувача з JSONPlaceholder
