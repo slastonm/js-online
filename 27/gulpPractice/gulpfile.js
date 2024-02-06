@@ -2,7 +2,7 @@ const { series, parallel, src, dest } = require('gulp');
 
 
 const concat = require('gulp-concat');
- 
+const cleanCSS = require('gulp-clean-css');
 // gulp.task('scripts', function() {
 //   return gulp.src('./lib/*.js')
 //     .pipe(concat('all.js'))
@@ -12,7 +12,14 @@ const concat = require('gulp-concat');
 function concatstyles(){
     return src('app/**/*.css')
     .pipe(concat('all.css'))
+    .pipe(cleanCSS({compatibility: 'ie8'}))
     .pipe(dest('dist/concat'));
+}
+
+function mincss(){
+  return src('app/style/style.css')
+  .pipe(cleanCSS({compatibility: 'ie8'}))
+  .pipe(dest('test/style/'));
 }
 
 function clean(cb) {
@@ -34,6 +41,6 @@ function test() {
 exports.test = test;
 exports.build = build;
 exports.concatstyles = concatstyles;
-
+exports.mincss = mincss;
 exports.default = series(clean, build, test);
 // exports.default = parallel(clean, build,test);
